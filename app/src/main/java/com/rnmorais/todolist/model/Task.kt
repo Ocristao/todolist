@@ -1,4 +1,4 @@
-package br.com.dio.todolist.model
+package com.rnmorais.todolist.model
 
 data class Task(
     val title: String,

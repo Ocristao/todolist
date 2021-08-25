@@ -1,4 +1,4 @@
-package br.com.dio.todolist.extensions
+package com.rnmorais.todolist.extensions
 
 import com.google.android.material.textfield.TextInputLayout
 import java.text.SimpleDateFormat

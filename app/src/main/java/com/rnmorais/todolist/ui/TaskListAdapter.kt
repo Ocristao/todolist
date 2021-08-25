@@ -1,4 +1,4 @@
-package br.com.dio.todolist.ui
+package com.rnmorais.todolist.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,9 +6,9 @@ import android.widget.PopupMenu
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import br.com.dio.todolist.R
-import br.com.dio.todolist.databinding.ItemTaskBinding
-import br.com.dio.todolist.model.Task
+import com.rnmorais.todolist.R
+import com.rnmorais.todolist.databinding.ItemTaskBinding
+import com.rnmorais.todolist.model.Task
 
 class TaskListAdapter : ListAdapter<Task, TaskListAdapter.TaskViewHolder>(DiffCallback()) {
 

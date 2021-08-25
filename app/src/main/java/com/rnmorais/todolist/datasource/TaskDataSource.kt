@@ -1,6 +1,6 @@
-package br.com.dio.todolist.datasource
+package com.rnmorais.todolist.datasource
 
-import br.com.dio.todolist.model.Task
+import com.rnmorais.todolist.model.Task
 
 object TaskDataSource {
     private val list = arrayListOf<Task>()
